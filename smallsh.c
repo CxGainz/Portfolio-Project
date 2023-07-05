@@ -26,7 +26,7 @@
 * 5) Execute non-built-in commands using the the appropriate EXEC(3) function.
 * - Implement redirection operators ‘<’ and ‘>’
 * - Implement the ‘&’ operator to run commands in the background
-* 6_Implement custom behavior for SIGINT and SIGTSTP signals
+* 6) Implement custom behavior for SIGINT and SIGTSTP signals
 */
 
 // struct to hold arguments
