@@ -14,6 +14,21 @@
 
 #define L_BOUND 1024
 
+/*
+* Smallsh Program Breakdown (Received Full Points For This Project):
+* In this assignment you will write smallsh your own shell in C. smallsh will implement a command line interface similar to well-known shells, such as bash. Your program will:
+* 1) Print an interactive input prompt
+* 2) Parse command line input into semantic tokens
+* 3) Implement parameter expansion
+* - Shell special parameters $$, $?, and $!
+* - Tilde (~) expansion
+* 4) Implement two shell built-in commands: exit and cd
+* 5) Execute non-built-in commands using the the appropriate EXEC(3) function.
+* - Implement redirection operators ‘<’ and ‘>’
+* - Implement the ‘&’ operator to run commands in the background
+* 6_Implement custom behavior for SIGINT and SIGTSTP signals
+*/
+
 // struct to hold arguments
 typedef struct ArgumentInfo{
   char command[2048];
